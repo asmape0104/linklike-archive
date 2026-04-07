@@ -1,9 +1,10 @@
 <template>
-  <div class="story-wrapper">
+  <div class="story-wrapper" :style="{ height: height - 128 + 'px' }">
     <template v-for="term in stories">
       <div
         v-for="story in term"
         class="wrapper"
+        :style="{ width: height * 0.46 + 'px' }"
       >
         <div class="month">{{ monthString[story.month - 1] }}</div>
         <div class="bar">
@@ -14,7 +15,10 @@
           <div class="bar-end">
           </div>
         </div>
-        <div class="image-container">
+        <div
+          class="image-container"
+          :style="{ height: height - 128 - 8 - 28 - 28 + 'px' }"
+        >
           <a class="image-link" :href="story.url" target="_blank">
             <img :src="story.image" alt="" />
           </a>
@@ -25,6 +29,10 @@
 </template>
 
 <script setup lang="ts">
+import { useWindowSize } from '@vueuse/core'
+
+const { height } = useWindowSize()
+
 const stories = {
   "103rd": [
     {
@@ -268,18 +276,15 @@ const monthString = [
 .story-wrapper {
   display: flex;
   width: 100vw;
-  height: calc(100vh - 128px);
   overflow-x: scroll;
 }
 
 .wrapper {
-  height: calc(100vh - 128px);
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
-  width: 46vh;
 }
 
 .month {
