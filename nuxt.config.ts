@@ -7,5 +7,16 @@ export default defineNuxtConfig({
     baseURL: '/linklike-archive/',
   },
 
-  modules: ['@vueuse/nuxt'],
+  modules: ['@vueuse/nuxt', '@vesp/nuxt-fontawesome'],
+  fontawesome: {
+    component: 'fa',
+    suffix: true,
+    icons: {
+      solid: [
+        'house',
+        'bars',
+        'turn-up'
+      ]
+    }
+  }
 })

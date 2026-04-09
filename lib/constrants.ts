@@ -1,0 +1,1 @@
+export const FOOTER_NAV_HEIGHT = 64
