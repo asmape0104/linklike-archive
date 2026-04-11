@@ -1,1 +1,0 @@
-import{_ as o,c as s,a as r,d as e,b as a,w as _,e as d,o as l}from"./D7KTu3a-.js";const u={};function x(c,t){const n=d;return l(),s("div",null,[t[1]||(t[1]=r("h3",null,"トップページはこれから作る",-1)),t[2]||(t[2]=e(" PWA化したいので多分URL移動しますがよろしく ",-1)),a(n,{to:"/story"},{default:_(()=>[...t[0]||(t[0]=[e("活動記録",-1)])]),_:1})])}const i=o(u,[["render",x]]);export{i as default};
