@@ -1,2 +1,3 @@
 User-Agent: *
 Disallow:
+Sitemap: https://asmape0104.github.io/linklike-archive/sitemap.xml
