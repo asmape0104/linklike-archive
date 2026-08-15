@@ -1,4 +1,4 @@
-import{D as e,Ht as t,N as n,St as r,X as i}from"./CEncO6kS.js";import{n as a}from"./D5dvMVr8.js";var o=`THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THE LINKLIKE ARCHIVE PRODUCT.
+import{Ct as e,D as t,N as n,Ut as r,X as i}from"./DpUR_2LX.js";import{n as a}from"./DzWPmbPb.js";var o=`THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THE LINKLIKE ARCHIVE PRODUCT.
 
 -----
 
@@ -16047,5 +16047,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-`,s=n({__name:`licence`,setup(n){return a({title:`ライブラリライセンス`}),(n,a)=>(i(),e(`pre`,null,`    `+t(r(o))+`
+`,s=n({__name:`licence`,setup(n){return a({title:`ライブラリライセンス`}),(n,a)=>(i(),t(`pre`,null,`    `+r(e(o))+`
   `,1))}});export{s as default};
